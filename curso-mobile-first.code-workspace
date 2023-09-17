@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../curso-mobile-first"
+		},
+		{
+			"path": "../Steam-Burger"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Steam-Burger"
+	}
+}
