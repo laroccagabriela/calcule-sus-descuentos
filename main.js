@@ -16,6 +16,12 @@ function calculatePriceWidthDiscount() {
         pResult.innerText = 'Por favor, llena el formulario';
         return;
     }
+
+    if (discount >= 100) {
+        pResult.innerText = 'Colocar valor válido, su descuento no puede ser 100 o superior';
+        return;
+    }
+
     const newPrice = (price * (100 - discount)) / 100;
 
     pResult.innerText = 'El nuevo precio con descuento es $' + newPrice;
